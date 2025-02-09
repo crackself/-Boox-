@@ -1,6 +1,7 @@
 ### Root 前的准备
 
-    下载 App：“隐藏的设置项” 进入 AOSP 系统设置，多次点击设备版本号，打开开发者模式，并且启用 USB 调试
+    设置——更多设置——USB调试模式
+    (或下载 App：“隐藏的设置项” 进入 AOSP 系统设置，多次点击设备版本号，打开开发者模式，并且启用 USB 调试)
     数据线接上 PC，装好 ADB 驱动和环境，输入命令：adb devices 查看连接状态
     使用命令 adb reboot bootloader 重启进入 fastboot 模式
     fastboot flashing unlock 检查 bootloader 锁是否解除，文石 Leaf2_P 3.3.1 Android 11 的版本出场 bootloader 就没有上锁
