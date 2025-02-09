@@ -1,0 +1,3 @@
+下载TabUltraC固件并提取recovery.img
+进入fastboot模式加载recovery.img：fastboot boot recovery.img
+在recovery界面通过adb sideload刷机：adb sideload update.zip
